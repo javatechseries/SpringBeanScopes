@@ -4,7 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.explore.springbean.scopes.Coach;
 
-public class SpringBeanLifeCyclesApp {
+public class SpringBeanScopesApp {
 
 	public static void main(String[] args) {
 		ClassPathXmlApplicationContext ctxt=new ClassPathXmlApplicationContext("beanlifecycle-applicationContext.xml");
